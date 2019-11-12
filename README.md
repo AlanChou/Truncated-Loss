@@ -1,4 +1,4 @@
-# Truncated Loss
+# Truncated Loss (GCE)
  
 This is the unofficial PyTorch implementation of the paper "Generalized Cross Entropy Loss for Training Deep Neural Networks with Noisy Labels" in NIPS 2018.<br> 
 https://arxiv.org/abs/1805.07836
