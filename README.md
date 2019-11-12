@@ -6,7 +6,7 @@ https://arxiv.org/abs/1805.07836
 
 ## Overview
 
-The code doesn't include the experiment for Fashion MNIST dataset. All hyperparameters are set the same as they are mentioned in the paper. There are two things that are different from the original paper. The first thing is that I didn't seperate a validation set for the pruning step to obtain the optimal-epoch model. I used the model from the best test accuracy epoch to conduct the pruning step which will of course result in better performance. If you want to have fair comparison with other methods, you should serperate a validation set. The second difference is that the loss was averaged instead of summed which I found it to be more stable. I didn't spend time running different niose rate settings. I simply pick noise rate 0.4 to validate on CIFAR-10 and CIFAR-100.
+The code doesn't include the experiment for Fashion MNIST dataset. All hyperparameters are set the same as they are mentioned in the paper. There are two things that are different from the original paper. The first thing is that I didn't seperate a validation set for the pruning step to obtain the optimal-epoch model. I used the model from the best test accuracy epoch to conduct the pruning step which will of course result in better performance. If you want to have fair comparison with other methods, you should seperate a validation set. The second difference is that the loss was averaged instead of summed which I found it to be more stable. I didn't spend time running different niose rate settings. I simply pick noise rate 0.4 to validate on CIFAR-10 and CIFAR-100.
 
 
 ## Dependencies
